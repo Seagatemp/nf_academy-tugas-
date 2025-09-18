@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas 1 - Menghitung Luas</title>
+</head>
+<body>
+    <h1>Menghitung Luas</h1>
+    <p>Luas Persegi Panjang dengan panjang 10 cm dan lebar 5 cm.</p>
+    <p>Luas Bujur Sangkar dengan sisi 7 cm.</p>
+    <P>Luas Segitiga dengan alas 8 cm dan tinggi 6 cm</P>
+    <p>Hasil perhitungan :</p>  
+    
+    <script>
+        // Nilai
+        let panjang = 10;
+        let lebar = 5;
+        let sisi = 7;
+        let alas = 8;
+        let tinggi = 6;
+
+
+        // Fungsi untuk menghitung Rumus luas Persegi Panjang 
+        let LuasPersegiPanjang = panjang * lebar;
+
+
+        // Fungsi untuk menghitung Rumus luas Bujur Sangkar
+        let LuasBujurSangkar = sisi * sisi;
+
+
+        // Fungsi untuk menghitung Rumus luas Segitiga
+        let LuasSegitiga = 1/2 * alas * tinggi;
+
+        document.write(
+            "Luas Persegi Panjang = " + LuasPersegiPanjang + " cm" +
+            "<p> Luas Bujur Sangkar = " + LuasBujurSangkar + " cm" +
+            "<p> Luas Segitiga = " + LuasSegitiga + " cm"
+        );
+
+    </script>
+</body>
+</html>
